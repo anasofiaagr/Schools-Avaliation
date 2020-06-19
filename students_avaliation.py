@@ -22,8 +22,8 @@ while True:
         print("The student repeats the year due to grades and absences")
 
     #continuar caso tenha outros alunos, e se não, o código para e mostra a lista da turma.
-    continue = input("Do you wish to continue? [Y/N]: ").upper()[0]
-    if continue == "N":
+    continueprocess = input("Do you wish to continue? [Y/N]: ").upper()[0]
+    if continueprocess == "N":
         break
 
 print(classtudent)
