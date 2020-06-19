@@ -4,8 +4,8 @@ classtudent = []
 while True:
     student = (input("Type the student's name:"))
     classtudent.append(student)
-    faltas =int(input("Type the student's absences:"))
-    classtudent.append(faltas)
+    absences =int(input("Type the student's absences:"))
+    classtudent.append(absences)
     grade = int(input("Type the student's grade:"))
     classtudent.append(grade)
 
